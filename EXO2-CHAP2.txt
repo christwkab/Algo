@@ -1,0 +1,92 @@
+
+
+****************************************************************************************************************************
+Exo2.1
+résultat produit le programme suivant
+
+
+Variables val, double numériques
+Début
+Val ? 231
+Double ? Val * 2
+Ecrire Val
+Ecrire Double
+Fin
+
+
+Val=231                      	Double=?
+Val=231				Double=462
+Val=231				Double=462
+Val=231				Double=462
+
+
+La valeur de Val vaut 231 et celle de Double vaut 462
+***************************************************************************************************************
+
+Exercice 2.2
+Ecrire un programme qui demande un nombre à l’utilisateur, puis qui calcule et  affiche le carré de ce nombre.
+
+	Variables nb ,carre numeriques
+	Début
+		Ecrire"Entre un nombre:"
+		Lire nb;
+		carre<---nb*nb;
+		Ecrire"le carré du nombre entré est:",carre
+	Fin
+
+***************************************************************************************************************
+
+Exercice 2.3
+Ecrire un programme qui demande son prénom à l'utilisateur, et qui lui réponde par un charmant « Bonjour » suivi du prénom.
+ On aura ainsi le dialogue suivant :
+
+machine : Quel est votre prénom ?
+utilisateur : Marie-Cunégonde
+machine : Bonjour, Marie Cunégonde ! ».
+
+
+Variables  prenom caractere;
+	Début
+		Ecrire"Quel est votre prénom ?"
+		Lire prenom
+		Ecrire"Bonjour",prenom,"!"
+	Fin
+
+
+***************************************************************************************************************
+
+Exercice 2.4
+Ecrire un programme qui lit le prix HT d’un article, le nombre d’articles et le taux de TVA, et qui fournit le prix total TTC correspondant.
+ Faire en sorte que des libellés apparaissent clairement.
+
+	Variables prixht,nbarticle,tva ,TTC en numerique
+		Début 
+			Ecrire"Entré le prix hors taxe"
+			Lire prixht
+
+			Ecrire"Entré le nombre article"
+			Lire nbarticle
+
+			Ecrire"Entré le prix TVA"
+			Lire TVA;
+			
+			TTC=prixht*nb(1 + TVA) 
+	
+			Ecrire"Le prix total correspondant:",TTC 
+		Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
