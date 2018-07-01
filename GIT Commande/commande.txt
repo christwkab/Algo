@@ -1,0 +1,14 @@
+https://github.com/christwkab/Algo.git
+
+git init /* Permet d'initialisation le projet*/
+git status   voir le status des fichiers par rapport à Git
+git add "nom du fichier" permet d'ajouter un fichier à git en local
+git add . /*Permet d'ajouter tous les fichiers du projet à git
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m"Debut du projet"
+git log
+git remote add origin https://github.com/christwkab/Algo.git /*Lier mon local avec le serveur à distance*/
+
+git push -u origin master /* Ajouter  le contenu de mon ?git local au repertoire à distance github
+
